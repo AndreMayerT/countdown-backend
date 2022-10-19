@@ -16,4 +16,4 @@ app.get("/main", async (req, res) => {
   return res.json(StartDate)
 })
 
-app.listen(3333)
+app.listen(process.env.PORT || 3333)

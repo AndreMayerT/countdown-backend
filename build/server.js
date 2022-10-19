@@ -25,4 +25,4 @@ app.get("/main", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     });
     return res.json(StartDate);
 }));
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
